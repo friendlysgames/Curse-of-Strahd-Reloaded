@@ -89,5 +89,9 @@
       },
       "flags": {}
     }
-  ]
+  ],
+  "url": "https://www.patreon.com/DragnaCarta",
+  "manifest": "https://www.dropbox.com/s/z45uwano7bv5cg5/module.json?dl=1",
+  "download": "https://www.dropbox.com/s/w6eqp4p15gxfh4s/curse-of-strahd-reloaded.zip?dl=1",
+  "manifestPlusVersion": "1.2.0"
 }
