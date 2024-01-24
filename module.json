@@ -1,7 +1,7 @@
 {
   "id": "curse-of-strahd-reloaded",
   "title": "Curse of Strahd: Reloaded",
-  "version": "pre-release.1",
+  "version": "pre-release.2",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
