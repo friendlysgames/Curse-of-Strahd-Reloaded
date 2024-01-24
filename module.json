@@ -91,7 +91,7 @@
     }
   ],
   "url": "https://www.patreon.com/DragnaCarta",
-  "manifest": "https://github.com/friendlysgames/Curse-of-Strahd-Reloaded/releases/download/prerelease/module.json",
-  "download": "https://github.com/friendlysgames/Curse-of-Strahd-Reloaded/releases/download/prerelease/curse-of-strahd-reloaded.zip",
+  "manifest": "https://github.com/friendlysgames/Curse-of-Strahd-Reloaded/releases/download/prerelease.2/module.json",
+  "download": "https://github.com/friendlysgames/Curse-of-Strahd-Reloaded/releases/download/prerelease.2/curse-of-strahd-reloaded.zip",
   "manifestPlusVersion": "1.2.0"
 }
