@@ -1,0 +1,93 @@
+{
+  "id": "curse-of-strahd-reloaded",
+  "title": "Curse of Strahd: Reloaded",
+  "version": "pre-release.1",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "item-piles",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "monks-active-tiles",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "socketlib",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "token-variants",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "magic-items-2",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "monks-tokenbar",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "forien-quest-log",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "DragnaCarta",
+      "url": "https://www.patreon.com/DragnaCarta",
+      "flags": {}
+    },
+    {
+      "name": "Friendly's Games",
+      "discord": "friendlysgames",
+      "flags": {}
+    }
+  ],
+  "url": "https://strahdreloaded.com",
+  "packs": [
+    {
+      "name": "curse-of-strahd-reloaded",
+      "label": "Curse of Strahd: Reloaded",
+      "path": "packs/curse-of-strahd-reloaded",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "curse-of-strahd-reloaded-journals",
+      "label": "Curse of Strahd: Reloaded - Journals",
+      "path": "packs/curse-of-strahd-reloaded-journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ]
+}

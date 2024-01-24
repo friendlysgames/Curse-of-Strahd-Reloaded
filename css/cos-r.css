@@ -1,0 +1,339 @@
+@import url('https://fonts.cdnfonts.com/css/vecna');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+.narration-box {
+  padding: 5px;
+  background-color: #362a004d;
+  background: #ffcd386b;
+  -webkit-box-shadow: 5px 5px 0px 1px #7C7F84; 
+  box-shadow: 2px 3px 0px 1px #7C7F84;
+  border: 4px solid #ffc107 !important;
+  border-radius: 15px !important;
+  max-width: 98%;
+  margin: 10px auto 10px 0 !important;
+
+  color: rgb(0, 0, 0);
+}
+
+
+
+.macro-callout {
+  padding: 5px;
+  background-color: #e0f2f1;
+  background: linear-gradient(0deg, rgba(142,217,231,.5) 0%, rgba(131,83,215,.5) 100%); 
+  -webkit-box-shadow: 5px 5px 0px 1px #7C7F84; 
+  box-shadow: 2px 3px 0px 1px #7C7F84;
+  border: 1px solid #7C7F84;
+  max-width: 98%;
+  margin: 10px auto;
+  
+  color: rgb(0, 0, 0);
+}
+
+.playlist-callout {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  background-color: #e0f2f1;
+  background: linear-gradient(0deg, rgba(231, 142, 190, 0.5) 0%, rgba(215, 83, 83, 0.5) 100%); 
+  -webkit-box-shadow: 5px 5px 0px 1px #7C7F84; 
+  box-shadow: 2px 3px 0px 1px #7C7F84;
+  border: 1px solid #7C7F84;
+  max-width: 98%;
+  margin: 10px auto;
+  
+  color: rgb(0, 0, 0);
+}
+
+.active-tiles-callout {
+  padding: 5px;
+  background-color: #e0f2f1;
+  background: linear-gradient(0deg, rgba(225, 231, 142, 0.5) 0%, rgba(215, 184, 83, 0.5) 100%); 
+  -webkit-box-shadow: 5px 5px 0px 1px #7C7F84; 
+  box-shadow: 2px 3px 0px 1px #7C7F84;
+  border: 1px solid #7C7F84;
+  max-width: 98%;
+  margin: 10px auto;
+  
+  color: rgb(0, 0, 0);
+}
+
+.design-notes {
+  padding: 0.5em 0.5em 0.25em;
+  border-left: 3px solid #2e2e2e;
+  border-right: 3px solid #2e2e2e;
+	background: rgb(218, 218, 224);
+  margin: 1em 0.5em;
+}
+
+.magic-item {
+  padding: 5px;
+	background: linear-gradient(0deg, #c1b427 0%, #ddd692 100%);
+    -webkit-box-shadow: 5px 5px 0px 1px #7C7F84; 
+    box-shadow: 2px 3px 0px 1px #7C7F84;
+    border: 1px solid #7C7F84;
+    max-width: 100%;
+    margin: 10px auto;
+
+  color: rgb(0, 0, 0)
+}
+
+.image-box {
+  float: right;
+  width: 300px;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 30px; /* Make the corners softer */
+  filter: grayscale(100%); /* Desaturate the background */
+  transition: filter 0.3s ease; /* Smooth transition */
+}
+
+.image-box:hover {
+  filter: grayscale(0%); /* Restore saturation on hover */
+}
+
+.image-box img {
+  max-width: 100%;
+  height: auto;
+  border: none !important;
+}
+
+.image-box::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cos_classTable {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 1em;
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-sizing: border-box;
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: gray;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  border-collapse: separate;
+  background-color: #ffffff;
+  border-style: solid;
+  border-image-outset: 25px 17px;
+  border-image-repeat: repeat;
+  border-image-slice: 150 200 150 200;
+  border-image-source: url(https://www.gmbinder.com/assets/img/table-wrap.png);
+  border-image-width: 47px;
+}
+
+.cos_classTable th, .cos_classTable td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+
+.cos_classTable th {
+  background-color: transparent;
+  color: black;
+}
+
+.cos_classTable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.callout {
+  padding: 5px;
+  background-color: var(--highlight);
+  background: var(--background);
+  -webkit-box-shadow: 5px 5px 0px 1px #7C7F84; 
+  box-shadow: 2px 3px 0px 1px #7C7F84;
+  border: 4px solid var(--highlight) !important;
+  border-radius: 15px !important;
+  max-width: 98%;
+  margin: 10px auto 10px 0 !important;
+}
+
+.callout-content {
+  font-size: 1em;
+}
+
+.callout-content p:first-child {
+  margin-top: 5px;
+}
+
+.callout-content p:last-child {
+  margin-bottom: 0.5e;
+}
+
+.callout.info {
+  --highlight: #292929;
+  --background: #d8d8d8;
+}
+
+.callout.info .callout-title-inner strong::before {
+  font-family: "Font Awesome 5 Free";
+  content: '\f05a';
+  color: var(--highlight);
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.callout.tip {
+  --highlight: var(--highlight-friendly);
+  --background: var(--custom-background-friendly);
+}
+
+.callout.profile {
+  --highlight: #7100C2;
+  --background: #31065034;
+}
+
+.callout.profile .callout-title-inner strong::before {
+  font-family: "Font Awesome 5 Free";
+  content: '\f7e4';
+  color: var(--highlight);
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.callout.warning {
+  --highlight: #9E3F00;
+  --background: #642d0046;
+}
+
+.callout.warning .callout-title-inner strong::before {
+  font-family: "Font Awesome 5 Free";
+  content: '\f071';
+  color: var(--highlight);
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.callout.narrative {
+  --highlight: #0F5C00;
+  --background: #0d4e0042;
+}
+
+.callout.narrative .callout-title-inner strong::before {
+  font-family: "Font Awesome 5 Free";
+  content: '\f328';
+  color: var(--highlight);
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.callout.lore {
+  --callout-icon: '\f02d';
+  --highlight: #005266;
+  --background: #00354244;
+}
+.callout.lore .callout-title-inner strong::before {
+  font-family: "Font Awesome 5 Free";
+  content: '\f02d';
+  color: var(--highlight);
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.callout.item {
+  --highlight: #94007B;
+  --background: #33002a34;
+}
+
+.callout.item .callout-title-inner strong::before {
+  font-family: "Font Awesome 5 Free";
+  content: '\f3a5';
+  color: var(--highlight);
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.callout.design {
+  --highlight: #A30000;
+  --background: #3600003a;
+}
+
+.callout.design .callout-title-inner strong::before {
+  font-family: "Font Awesome 5 Free";
+  content: '\f0ad';
+  color: var(--highlight);
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.callout.combat {
+  --highlight: #A30000;
+  --background: #3600003a;
+}
+
+.callout.combat .callout-title-inner strong::before {
+  font-family: "Font Awesome 5 Free";
+  content: '\f6de';
+  color: var(--highlight);
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.callout .callout-content em,
+.callout .callout-title-inner strong,
+.callout .callout-content strong,
+.callout .callout-content hr,
+.callout .callout-icon svg,
+.callout .callout-fold svg {
+  color: var(--highlight) !important;
+  stroke: var(--highlight) !important;
+}
+
+.citation,
+.citation em {
+  color: #250030;
+  font-weight: bold;
+}
+
+.flowchart {
+  display: flex;
+  flex-direction: column; /* makes the layout vertical */
+  list-style-type: none;
+  padding: 0;
+}
+
+.flowchart li {
+  margin-bottom: 20px; /* adds space between each box */
+  position: relative; /* needed for positioning the pseudo-elements */
+  padding: 5px; 
+  padding-top: 25px !important;
+  padding-bottom: 25px !important;    
+  background-color: #362a004d;
+  background: #ffcd386b;
+  -webkit-box-shadow: 5px 5px 0px 1px #7C7F84; 
+  box-shadow: 2px 3px 0px 1px #7C7F84;
+  border: 4px solid #ffc107 !important;
+  border-radius: 15px !important;
+  max-width: 98%;
+  margin: 10px auto 10px 0 !important;
+
+  color: rgb(0, 0, 0);
+}
+
+/* Adding connecting lines */
+.flowchart li::after {
+  content: '';
+  position: absolute;
+  left: 50%; /* aligns the line in the center of the li */
+  bottom: -24px; /* positions the line at the bottom of the li */
+  width: 4px; /* width of the line (make it thicker for vertical lines) */
+  height: 20px; /* length of the line (adjust as needed) */
+  background-color: #ffc107;
+}
+
+/* Remove line after the last item */
+.flowchart li:last-child::after {
+  display: none;
+}
+
+.subtitle {
+  margin-bottom: 10px;
+}

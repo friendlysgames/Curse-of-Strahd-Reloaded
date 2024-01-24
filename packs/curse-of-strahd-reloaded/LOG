@@ -1,0 +1,7 @@
+2024/01/24-15:00:52.957 151b4 Recovering log #3
+2024/01/24-15:00:52.966 151b4 Delete type=0 #3
+2024/01/24-15:00:52.966 151b4 Delete type=3 #2
+2024/01/24-17:15:30.253 12c5c Level-0 table #7: started
+2024/01/24-17:15:30.323 12c5c Level-0 table #7: 784218 bytes OK
+2024/01/24-17:15:30.327 12c5c Delete type=0 #5
+2024/01/24-17:15:30.327 12c5c Manual compaction at level-0 from '!adventures!NbVx3rV0wVGKKqIY' @ 72057594037927935 : 1 .. '!adventures!u1Bx05eoItUT42vj' @ 0 : 0; will stop at (end)
