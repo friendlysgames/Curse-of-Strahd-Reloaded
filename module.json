@@ -1,7 +1,7 @@
 {
   "id": "curse-of-strahd-reloaded",
   "title": "Curse of Strahd: Reloaded",
-  "version": "pre-release.2",
+  "version": "pre-release.3",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -90,8 +90,11 @@
       "flags": {}
     }
   ],
+  "styles": [
+    "./css/cos-r.css"
+  ],
   "url": "https://www.patreon.com/DragnaCarta",
-  "manifest": "https://github.com/friendlysgames/Curse-of-Strahd-Reloaded/releases/download/prerelease.2/module.json",
-  "download": "https://github.com/friendlysgames/Curse-of-Strahd-Reloaded/releases/download/prerelease.2/curse-of-strahd-reloaded.zip",
+  "manifest": "https://github.com/friendlysgames/Curse-of-Strahd-Reloaded/releases/download/prerelease.3/module.json",
+  "download": "https://github.com/friendlysgames/Curse-of-Strahd-Reloaded/releases/download/prerelease.3/curse-of-strahd-reloaded.zip",
   "manifestPlusVersion": "1.2.0"
 }
