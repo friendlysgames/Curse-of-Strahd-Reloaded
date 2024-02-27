@@ -27,6 +27,11 @@
         "id": "socketlib",
         "type": "module",
         "compatibility": {}
+      },
+      {
+        "id": "jal",
+        "type": "module",
+        "compatibility": {}
       }
     ],
     "recommends": [
