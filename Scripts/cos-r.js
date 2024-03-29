@@ -9,3 +9,17 @@ Hooks.on("dnd5e.preRollDamage", (item, config) => {
         else return;
     }
 })
+
+Hooks.on('renderPause', (app, [html], options) => {
+    const img = html.querySelector('img')
+    if (!img) return;
+    img.src = 'modules/curse-of-strahd-reloaded/pause_icon.webp'
+      // Set the image to display at 2x its original size
+    img.style.transform = 'scale(2)';
+  });
+
+  Hooks.once("init", () => {
+    CONFIG.DND5E.rules.dazed = "Compendium.curse-of-strahd-reloaded.curse-of-strahd-reloaded-journals.JournalEntry.x5iZhF70zzKkfSyw.JournalEntryPage.aGhbXkt49e83Vb4T";
+  });
+
+  

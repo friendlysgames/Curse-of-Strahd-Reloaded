@@ -15,8 +15,6 @@
   color: rgb(0, 0, 0);
 }
 
-
-
 .macro-callout {
   padding: 5px;
   background-color: #e0f2f1;
@@ -78,6 +76,18 @@
   color: rgb(0, 0, 0)
 }
 
+.trap-card {
+  padding: 5px;
+	background: linear-gradient(0deg, #c12727 0%, #dd9292 100%);
+    -webkit-box-shadow: 5px 5px 0px 1px #7f7c84; 
+    box-shadow: 2px 3px 0px 1px #7e7c84;
+    border: 1px solid #7e7c84;
+    max-width: 100%;
+    margin: 10px auto;
+
+  color: rgb(0, 0, 0)
+}
+
 .image-box {
   float: right;
   width: 300px;
@@ -102,46 +112,6 @@
     content: "";
     display: table;
     clear: both;
-}
-
-.cos_classTable {
-  width: 100%;
-  margin: auto;
-  margin-bottom: 1em;
-  background-color: transparent;
-  border-collapse: collapse;
-  border-spacing: 0;
-  box-sizing: border-box;
-  display: table;
-  border-collapse: separate;
-  box-sizing: border-box;
-  text-indent: initial;
-  border-spacing: 2px;
-  border-color: gray;
-  margin-top: 25px;
-  margin-bottom: 40px;
-  border-collapse: separate;
-  background-color: #ffffff;
-  border-style: solid;
-  border-image-outset: 25px 17px;
-  border-image-repeat: repeat;
-  border-image-slice: 150 200 150 200;
-  border-image-source: url(https://www.gmbinder.com/assets/img/table-wrap.png);
-  border-image-width: 47px;
-}
-
-.cos_classTable th, .cos_classTable td {
-  border: 1px solid #dddddd;
-  padding: 8px;
-}
-
-.cos_classTable th {
-  background-color: transparent;
-  color: black;
-}
-
-.cos_classTable tr:nth-child(even) {
-  background-color: #f2f2f2;
 }
 
 .callout {
@@ -246,6 +216,19 @@
 .callout.item .callout-title-inner strong::before {
   font-family: "Font Awesome 5 Free";
   content: '\f3a5';
+  color: var(--highlight);
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.callout.trap {
+  --highlight: #009463;
+  --background: #002d3334;
+}
+
+.callout.trap .callout-title-inner strong::before {
+  font-family: "Font Awesome 5 Free";
+  content: '\f06a';
   color: var(--highlight);
   display: inline-block;
   margin-right: 10px;
