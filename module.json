@@ -122,6 +122,6 @@
   "styles": [
     "css/cos-r.css"
   ],
-  "manifest": "https://github.com/friendlysgames/Curse-of-Strahd-Reloaded/releases/latest/download/module.json",
-  "download": "https://github.com/friendlysgames/Curse-of-Strahd-Reloaded/releases/latest/download/curse-of-strahd-reloaded.zip"
+  "manifest": "https://github.com/friendlysgames/Curse-of-Strahd-Reloaded/releases/download/prerelease.5/module.json",
+  "download": "https://github.com/friendlysgames/Curse-of-Strahd-Reloaded/releases/download/prerelease.5/curse-of-strahd-reloaded.zip"
 }
