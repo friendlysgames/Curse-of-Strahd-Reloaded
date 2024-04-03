@@ -7,6 +7,16 @@
     "verified": "11"
   },
   "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "3.0",
+          "maximum": "3.3"
+        }
+      },
+    ],
     "requires": [
       {
         "id": "item-piles",
