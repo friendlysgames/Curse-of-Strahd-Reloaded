@@ -37,11 +37,6 @@
         "id": "socketlib",
         "type": "module",
         "compatibility": {}
-      },
-      {
-        "id": "jal",
-        "type": "module",
-        "compatibility": {}
       }
     ],
     "recommends": [
@@ -122,6 +117,6 @@
   "styles": [
     "css/cos-r.css"
   ],
-  "manifest": "https://github.com/friendlysgames/Curse-of-Strahd-Reloaded/releases/download/prerelease.5/module.json",
-  "download": "https://github.com/friendlysgames/Curse-of-Strahd-Reloaded/releases/download/prerelease.5/curse-of-strahd-reloaded.zip"
+  "manifest": "https://github.com/friendlysgames/Curse-of-Strahd-Reloaded/releases/download/testrelease/module.json",
+  "download": "https://github.com/friendlysgames/Curse-of-Strahd-Reloaded/releases/download/testrelease/curse-of-strahd-reloaded.zip"
 }
